@@ -3,8 +3,8 @@
 g++ \
     -I/usr/include/python3.10 \
     -I/usr/include \
-    -x c++ -std=c++11 -c bindings/source/petpy.cpp  \
-    -o petpy.o -fPIC
+    -x c++ -std=c++11 -c bindings/source/pypet.cpp  \
+    -o pypet.o -fPIC
 
 g++ \
     -I/usr/include/python3.10 \

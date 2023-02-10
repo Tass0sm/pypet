@@ -12,8 +12,8 @@ typedef std::function< pybind11::module & (std::string const &) > ModuleGetter;
 void bind_pet(std::function< pybind11::module &(std::string const &namespace_) > &M);
 
 
-PYBIND11_MODULE(petpy, root_module) {
-	root_module.doc() = "petpy module";
+PYBIND11_MODULE(pypet, root_module) {
+	root_module.doc() = "pypet module";
 
 	std::map <std::string, pybind11::module> modules;
 	ModuleGetter M = [&](std::string const &namespace_) -> pybind11::module & {

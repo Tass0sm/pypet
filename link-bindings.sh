@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-g++ -o petpy.so \
+g++ -o pypet.so \
     -Wl,--no-undefined \
-    -shared pet.o petpy.o \
+    -shared pet.o pypet.o \
     -lpython3.10 -lpet -lisl
