@@ -1,0 +1,14 @@
+#+title: pypet
+
+Automatically generated python bindings for [[https://github.com/Meinersbur/pet][pet]].
+
+* How
+
+1. build and install binder
+2. build and install pet
+3. ./gen-bindings.sh
+4. compile and link pybind11 module
+
+* Resources
+1. https://github.com/RosettaCommons/binder
+2. https://cppbinder.readthedocs.io/en/latest/basics.html
